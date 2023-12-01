@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+	char str[20];
+	printf("enter string: ");
+	scanf("%s", str);
+	
+	printf("your string is:%s\n",str);
+	
+	puts(str);
+	
+	/*int i;
+	for(i=0; str[i] != '\0'; i++);
+	printf("\nyour string length is:%d", i);*/
+return 0;
+}
